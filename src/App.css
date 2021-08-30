@@ -2,11 +2,23 @@
   background-color: #1D1F21;
   display: block;
   color: white;
-  padding-left: 16px;
+  /* padding-left: 16px; */
+}
+.searchbar {
+  font-Size: 24px;
+  min-width: 800px;
+  margin: 15px;
+  padding: 10px;
+  border-Radius: 10px;
+  border: 2px solid #1D1F21;
+  /* boxShadow: "inset 20px 20px 40px #d1d1d1, inset - 20px -20px 40px #ffffff" */
 }
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .App-logo {
@@ -21,7 +33,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #1D1F21;
 }
 
 .App-link {
@@ -29,9 +41,20 @@
 }
 
 .outerDiv {
-  background: white;  /* fallback for old browsers */
-  background: white;  /* Chrome 10-25, Safari 5.1-6 */
-  background: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1D1F21;  /* fallback for old browsers */
+  background: #1D1F21;  /* Chrome 10-25, Safari 5.1-6 */
+  background: #1D1F21; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
+.movieColumn {
+  /* border: solid 5px gold; */
+  display: flex;
+  flex-direction: column;
+  background-color: #1D1F21;
+}
+
+tbody{
+  display:flex;
+  justify-content: center;
+}

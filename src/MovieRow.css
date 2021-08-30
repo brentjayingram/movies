@@ -1,6 +1,43 @@
-#button {
+/* #button {
 border-radius: 13px;
 background: linear-gradient(145deg, #adadad, #cdcdcd);
 box-shadow:  8px 8px 24px #9d9d9d, 
              -8px -8px 24px #e3e3e3;
-}
+} */
+
+.movieCard {
+    display: 'flex';
+    flex-direction: column;
+    justify-Content: center;
+    background-Color: #ECF0F3;
+    border-Radius: 10px;
+    border-Width: 2px;
+    margin: 15px;
+
+    /* margin-Left: 20;
+    margin-Top: 20;
+    padding: 3 rem; 
+    box-Shadow: 1px 3px 30px #9E9E9E, -1px -20px 60px #fff;*/
+  }
+
+  .viewButton {
+    
+        padding: 15px;
+        background-color: #1D1F21;
+        border-radius: 10px;
+        font-Size: 16px;
+        border: 1px solid #1D1F21;
+        color: white;
+        font-Weight: bold;
+        /* color: white; */
+        margin: 4px;
+        text-Align:'center';
+        cursor: pointer;
+        transition-duration: 0.4s;
+  }
+
+  .viewButton:hover {
+    background-color: white; 
+    color: #1D1F21;
+    border: 1px solid #1D1F21;
+  }
