@@ -1,0 +1,38 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "This app searches for just about any movie you can think of and displays the movie poster and synopsis. It was built with React and the OMDB API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingr001/movies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bingr001/movies/issues"
+  },
+  "homepage": "https://github.com/bingr001/movies#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
