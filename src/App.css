@@ -4,9 +4,14 @@
   color: white;
   /* padding-left: 16px; */
 }
+.searchbarWrapper {
+  display:flex;
+  justify-content: center;
+}
 .searchbar {
   font-Size: 24px;
-  min-width: 800px;
+  min-width: 75vw;
+  max-width: 75vw;
   margin: 15px;
   padding: 10px;
   border-Radius: 10px;
@@ -52,9 +57,10 @@
   display: flex;
   flex-direction: column;
   background-color: #1D1F21;
+  align-items: center;
 }
 
 tbody{
   display:flex;
-  justify-content: center;
+  /* justify-content: center; */
 }

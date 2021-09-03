@@ -94,29 +94,12 @@ render() {
           </tr>
         </tbody>
       </table>
-
-      <input 
-      className="searchbar"
-        
-        style={{
-          // fontSize: 24,
-          // // display: 'block',
-          // // width: 700,
-          // display: 'flex',
-          // minwidth: 800,
-          // paddingTop: 8,
-          // paddingBottom: 8,
-          // marginBottom: 10,
-          // marginLeft: 20,
-          // marginTop: 10,
-          // paddingLeft: 16,
-          // borderRadius: 10,
-          // borderWidth: 2,
-          // backgroundColor: "#FFF",
-          // boxShadow: "inset 20px 20px 40px #d1d1d1, inset - 20px -20px 40px #ffffff"
-          
-        }} 
-      onChange={this.searchChangeHandler.bind(this)} placeholder="Enter a Movie Title" />
+      <div className="searchbarWrapper">
+        <input 
+        className="searchbar"
+        onChange={this.searchChangeHandler.bind(this)} placeholder="Enter a Movie Title" />
+      </div>
+      
       <div className="movieColumn">
         {this.state.rows}
       </div>
