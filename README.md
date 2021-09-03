@@ -5,8 +5,10 @@ This app searches for just about any movie you can think of and displays the mov
 ### How to get this started
 `npm start`
 
-
+### Live Demo
+You can view it [here](https://bingr001-movie-search.netlify.app/).
 
 ### Demo
-https://raw.githubusercontent.com/bingr001/movies/master/images/demo.gif
+![Movie Searcher Demo](https://raw.githubusercontent.com/bingr001/movies/master/images/demo.gif)
+
 
